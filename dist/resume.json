@@ -96,31 +96,73 @@
   "skills": [
     {
       "name": "Front End Development",
-      "level": "Master",
+      "level": "Engineer",
       "keywords": [
-        "HTML",
-        "CSS",
+        "HTML 5",
+        "CSS 3",
         "Javascript",
-        "ES2015",
+        "Ecmascript 6",
         "jQuery",
-        "Typescript",
-        "Meteor",
+        "D3",
         "React",
-        "Handlebars",
         "SASS",
         "LESS",
         "Gulp",
         "Grunt",
         "Babel",
         "Bootstrap",
-        "Semantic UI",
-        "Material css",
+        "Material UI",
         "Node",
-        "php",
+        "Php",
+        "Phalcon",
         "MySQL",
-        "Git",
+        "MariaDb",
+        "MongoDb",
+        "Microsoft SQL Server",
+        "Git"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "First-Level",
+      "keywords": [
+        "Cordova",
+        "Ionic",
+        "Android SDK",
+        "React Native",
+        "NativeBase"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "First-Level",
+      "keywords": [
+        "Puppet",
+        "Ansible",
+        "Vagrant",
+        "Otto",
+        "Parallels",
+        "Virtualbox",
+        "Packer",
+        "Atlas",
+        "Docker",
+        "Shell Scripting",
+        "CentOS",
+        "Debian"
+      ]
+    },
+    {
+      "name": "Business Tools",
+      "level": "Mid-Level",
+      "keywords": [
+        "Agile",
+        "Scrum",
+        "Asana",
         "Jira",
-        "Responsive"
+        "Confluence",
+        "HipChat",
+        "Skype",
+        "Google Apps"
       ]
     }
   ],
