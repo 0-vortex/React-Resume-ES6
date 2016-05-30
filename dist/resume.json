@@ -1,120 +1,94 @@
 {
   "basics": {
-    "name": "Jonathan Bloomer",
-    "label": "Front End Developer",
-    "picture": "dist/images/profilePhoto.jpg",
-    "email": "jonbloomer@gmail.com",
-    "phone": "0403933281",
-    "website": "http://freaksauce.com",
-    "summary": "Over the past 16 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. In my current role at IAG I am working on an Angular Business Insurance application. I have a very strong interest in full stack javascript development and have recently been experimenting with Meteor and React as well as Typescript and Polymer as you will see from my Github repos. I have experience using build tools such as Grunt & Gulp and templating languages such as Handlebars and experience using Git with both Stash and Github. In my most recent role I have been exposed to enterprise Agile development and received training and certification in SAFe ScrumXP (Scaled Agile Framework).",
+    "name": "TED Vortex",
+    "label": "Fullstack Puppet/Node/React",
+    "picture": "dist/images/AAEAAQAAAAAAAAKiAAAAJDMyOTdmYThiLTIzMWUtNDc2NS05YjA2LWY5NDRkNzlmZDVhNQ.jpg",
+    "phone": "+447477132686",
+    "website": "https://vortex.one",
+    "summary": "transitioning generic lamp-designed apps to paas can prove itself troublesome when you have to take quick decisions that will impact your future. that's why I like my apps to run as fast as possible, without caring much for the technologies used to do that.\n\nI think that any sane person will follow a OOP MVC pattern but the more we turn towards objects, it's just the abstraction of a living organism - i call this the human model.\n\nrather than listing both trending and non-trending technologies I use, I'd like to point out some of the philosophical concepts that fuel my perception as a programmer:\n\n- DRY, Don't Repeat Yourself\n- KISS, Keep It Simple Stupid\n- OCCAM'S RAZOR\n- ZENO'S PARADOXES\n\nI use both practical and theoretical reason to reach my goals and never tire learning something new",
     "location": {
-      "address": "Sutherland",
-      "postalCode": "2232",
-      "city": "Sydney",
-      "countryCode": "Aus",
-      "region": "NSW"
+      "address": "5 Boston Mews",
+      "postalCode": "NG51HL",
+      "city": "Nottingham",
+      "countryCode": "UK",
+      "region": "Nottinghamshire"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "jonbloomer",
-        "url": ""
+        "username": "0_vortex",
+        "url": "https://twitter.com/0_vortex"
       },
       {
         "network": "Github",
-        "username": "freaksauce",
-        "url": ""
+        "username": "vrtxf",
+        "url": "https://github.com/vrtxf"
+      },
+      {
+        "network": "Soundcloud",
+        "username": "VORT☰X",
+        "url": "https://soundcloud.com/vorteks"
       }
-    ]
+    ],
+    "email": "rodoeted@yahoo.com"
   },
   "work": [
     {
-      "company": "IAG",
-      "position": "UI Developer",
-      "website": "http://nrma.com.au",
-      "startDate": "2014-11-01",
-      "endDate": "",
-      "summary": "Working as a UI developer as part of IAG Labs developing html/css/javascript solutions to integrate with the backend systems for the online quoting applications.",
-      "highlights": [
-        "Developed a Google Polymer prototype as a solution to ongoing problems with backend teams using inconsistent markup",
-        "Started to transition existing jQuery plugins over to Typescript",
-        "Became a certified SaFE Agile Practicioner"
-      ]
+      "company": "Computer Fun (expertvision.ro)",
+      "position": "Lead Programmer",
+      "website": "http://expertvision.ro",
+      "startDate": "2009-06-01",
+      "summary": "My job as Lead Programmer included: \n- design and development of business critical web applications \n- management and development of a team of it professionals \n- project planning\n- provisioning of support and solutions to team members in solving their work tasks\n- unit testing \n- software auditing\n- collaboration with other departments and 3rd party software providers",
+      "highlights": [],
+      "endDate": "2013-10-01"
     },
     {
-      "company": "Reactive",
-      "position": "Front End Developer",
-      "website": "",
-      "startDate": "2014-09-01",
-      "endDate": "2014-11-30",
-      "summary": "At Reactive I was responsible for working with a .NET team to deliver templates using javascript/sass/grunt and handlebars. I also had exposure to TFS for source control.",
-      "highlights": []
-    },
-    {
-      "company": "City of Sydney Council",
-      "position": "Front End Developer",
-      "website": "",
-      "startDate": "2014-05-01",
-      "endDate": "2014-08-31",
-      "summary": "For City of Sydney I was a Front End Developer working with Wordpress on multiple key websites such as Sydneynewyearseve.com.au. All code was developed using LESS and Bootstrap for a consistent responsive interface.",
-      "highlights": []
-    },
-    {
-      "company": "Self Employed",
-      "position": "Freelance Web Developer",
-      "website": "",
-      "startDate": "2010-03-01",
-      "endDate": "2014-05-01",
-      "summary": "As a freelance web developer I mainly concentrated on building bespoke CMS solutions for agencies using Wordpress. As a full stack developer my responsibilities included setting up hosting, domains, databases and delivering an easy to use custom Wordpress theme with Advanced Custom Fields and toward the latter end of my freelance venture, responsive layouts.",
-      "highlights": []
-    },
-    {
-      "company": "Soap Creative",
-      "position": "Senior Web Developer",
-      "website": "http://soapcreative.com",
-      "startDate": "2006-07-01",
-      "endDate": "2010-03-01",
-      "summary": "At SOAP I was required to carry out full stack duties across a broad range of projects including php/MySQL with front end technologies ranging from html/css to Flash.",
-      "highlights": []
-    },
-    {
-      "company": "M&C Saatchi",
-      "position": "Web Developer",
-      "website": "http://mcsaatchi.com.au/",
-      "startDate": "2006-05-01",
-      "endDate": "2006-08-31",
-      "summary": "Flash development with xml & amfphp for php/mysql integration.",
-      "highlights": []
-    },
-    {
-      "company": "Wunderman/GPY&R",
-      "position": "Web Developer",
-      "website": "http://www.gpyr.com.au/",
-      "startDate": "2005-07-01",
-      "endDate": "2006-05-01",
-      "summary": "Flash developer using xml & amfphp, html/css with php/mysql backend integration and CMS development.",
-      "highlights": []
-    },
-    {
-      "company": "Federal Publishing Company",
+      "company": "Self-employed",
       "position": "Web Developer",
       "website": "",
-      "startDate": "2004-07-01",
-      "endDate": "2005-03-31",
-      "summary": "Lead web developer on homehound.com.au, html/css/javascript development with php & SQL server integration.",
-      "highlights": []
+      "startDate": "2013-10-01",
+      "summary": "I used this time to consolidate my PHP skills while picking up on Puppet and NodeJS",
+      "highlights": [],
+      "endDate": "2014-11-01"
+    },
+    {
+      "company": "Connected World Services (part of the Carphone Warehouse Group)",
+      "position": "Software Developer",
+      "website": "http://connectedworldservices.com",
+      "startDate": "2014-12-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2016-05-01"
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Birmingham Conservatoire",
-      "area": "Music",
-      "studyType": "Bachelor (hons)",
-      "startDate": "1994-08-01",
-      "endDate": "1998-07-01",
+      "institution": "Ioan Alexandru Brătescu-Voinești Grad school",
+      "area": "Mathematics",
+      "studyType": "Primary School",
+      "startDate": "1996-01-01",
       "gpa": "",
-      "courses": []
+      "courses": [],
+      "endDate": "2004-01-01"
+    },
+    {
+      "institution": "Ienăchiță Văcărescu National College",
+      "area": "Mathematical Informatics",
+      "studyType": "High School",
+      "startDate": "2004-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2008-01-01"
+    },
+    {
+      "institution": "Romanian - American University",
+      "area": "Law",
+      "studyType": "Bachelor",
+      "startDate": "2008-01-01",
+      "gpa": "-",
+      "courses": [],
+      "endDate": "2009-01-01"
     }
   ],
   "awards": [],
@@ -152,13 +126,41 @@
   ],
   "languages": [
     {
+      "language": "Romanian",
+      "fluency": "Native or bilingual"
+    },
+    {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "German",
+      "fluency": "Limited working"
     }
   ],
   "interests": [
     {
-      "name": "Guitar",
+      "name": "React",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "keywords": []
+    },
+    {
+      "name": "Puppet",
+      "keywords": []
+    },
+    {
+      "name": "Node",
       "keywords": []
     }
   ],
