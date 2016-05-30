@@ -10,5 +10,5 @@ import Education from './components/Education';
 
 
 ReactDOM.render(
-  <App source="/dist/resume.json" />, document.getElementById('content')
+  <App source="/resume.json" />, document.getElementById('content')
 );
