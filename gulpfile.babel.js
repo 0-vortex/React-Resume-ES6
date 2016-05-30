@@ -86,6 +86,9 @@ gulp.task('browserify', () => {
 });
 
 gulp.task('copy-resume', function() {
+    gulp.src('CNAME')
+    .pipe(gulp.dest('./dist/'));
+
     gulp.src('src/resume.json')
     .pipe(gulp.dest('./dist/'));
 });
@@ -132,9 +135,6 @@ gulp.task('watchTask', () => {
 });
 
 gulp.task('deploy', function() {
-  gulp.src('CNAME')
-  .pipe(gulp.dest('./dist/'));
-
   return gulp.src(paths.distDeploy)
     .pipe(ghPages());
 });
