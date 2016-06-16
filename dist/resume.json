@@ -15,17 +15,32 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "0_vortex",
-        "url": "https://twitter.com/0_vortex"
-      },
-      {
         "network": "Github",
+        "icon": "fa-github",
         "username": "vrtxf",
         "url": "https://github.com/vrtxf"
       },
       {
+        "network": "Bitbucket",
+        "icon": "fa-bitbucket",
+        "username": "tedvortex",
+        "url": "https://bitbucket.org/tedvortex"
+      },
+      {
+        "network": "Crunchbase",
+        "icon": "fa-angellist",
+        "username": "TED Vortex",
+        "url": "https://www.crunchbase.com/user/501304"
+      },
+      {
+        "network": "Twitter",
+        "icon": "fa-twitter",
+        "username": "0_vortex",
+        "url": "https://twitter.com/0_vortex"
+      },
+      {
         "network": "Soundcloud",
+        "icon": "fa-soundcloud",
         "username": "VORT☰X",
         "url": "https://soundcloud.com/vorteks"
       }
@@ -34,13 +49,13 @@
   },
   "work": [
     {
-      "company": "Computer Fun (expertvision.ro)",
-      "position": "Lead Programmer",
-      "website": "http://expertvision.ro",
-      "startDate": "2009-06-01",
-      "summary": "My job as Lead Programmer included: \n- design and development of business critical web applications \n- management and development of a team of it professionals \n- project planning\n- provisioning of support and solutions to team members in solving their work tasks\n- unit testing \n- software auditing\n- collaboration with other departments and 3rd party software providers",
+      "company": "Connected World Services (part of the Carphone Warehouse Group)",
+      "position": "Software Developer",
+      "website": "http://connectedworldservices.com",
+      "startDate": "2014-12-01",
+      "summary": "",
       "highlights": [],
-      "endDate": "2013-10-01"
+      "endDate": "2016-05-01"
     },
     {
       "company": "Self-employed",
@@ -52,13 +67,13 @@
       "endDate": "2014-11-01"
     },
     {
-      "company": "Connected World Services (part of the Carphone Warehouse Group)",
-      "position": "Software Developer",
-      "website": "http://connectedworldservices.com",
-      "startDate": "2014-12-01",
-      "summary": "",
+      "company": "Computer Fun (expertvision.ro)",
+      "position": "Lead Programmer",
+      "website": "http://expertvision.ro",
+      "startDate": "2009-06-01",
+      "summary": "My job as Lead Programmer included: \n- design and development of business critical web applications \n- management and development of a team of it professionals \n- project planning\n- provisioning of support and solutions to team members in solving their work tasks\n- unit testing \n- software auditing\n- collaboration with other departments and 3rd party software providers",
       "highlights": [],
-      "endDate": "2016-05-01"
+      "endDate": "2013-10-01"
     }
   ],
   "volunteer": [],
@@ -95,7 +110,7 @@
   "publications": [],
   "skills": [
     {
-      "name": "Front End Development",
+      "name": "Web Application Development",
       "level": "Engineer",
       "keywords": [
         "HTML 5",
@@ -110,16 +125,39 @@
         "Gulp",
         "Grunt",
         "Babel",
+        "Webpack",
         "Bootstrap",
         "Material UI",
         "Node",
+        "Npm",
+        "Eslint",
+        "Yeoman",
         "Php",
         "Phalcon",
+        "Composer",
         "MySQL",
         "MariaDb",
         "MongoDb",
+        "Redis",
+        "RabbitMQ",
+        "Solr",
         "Microsoft SQL Server",
         "Git"
+      ]
+    },
+    {
+      "name": "Business Tools",
+      "level": "Mid-Level",
+      "keywords": [
+        "Agile",
+        "Scrum",
+        "Asana",
+        "Jira",
+        "Confluence",
+        "HipChat",
+        "Skype",
+        "Slack",
+        "Google Apps"
       ]
     },
     {
@@ -149,20 +187,6 @@
         "Shell Scripting",
         "CentOS",
         "Debian"
-      ]
-    },
-    {
-      "name": "Business Tools",
-      "level": "Mid-Level",
-      "keywords": [
-        "Agile",
-        "Scrum",
-        "Asana",
-        "Jira",
-        "Confluence",
-        "HipChat",
-        "Skype",
-        "Google Apps"
       ]
     }
   ],
