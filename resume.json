@@ -43,6 +43,12 @@
         "icon": "fa-soundcloud",
         "username": "VORT☰X",
         "url": "https://soundcloud.com/vorteks"
+      },
+      {
+        "network": "Last.fm",
+        "icon": "fa-lastfm",
+        "username": "vrtxf",
+        "url": "http://www.last.fm/user/vrtxf"
       }
     ],
     "email": "rodoeted@yahoo.com"
