@@ -23,8 +23,6 @@ export default class Profile extends React.Component {
       </ul>
       <div className="divider"></div>
       <ul className="profileLinks list-inline text-center">
-        {/*<li><a className="fa fa-twitter fa-2x" href={'https://twitter.com/' + profileObj.profiles[0].username}></a></li>*/}
-        {/*<li><a className="fa fa-github fa-2x" href={'https://github.com/' + profileObj.profiles[1].username}></a></li>*/}
         {profileObj.profiles.map(function(profile) {
           return (
             <li>
