@@ -208,4 +208,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-# Created by .ignore support plugin (hsz.mobi)
+
+# User/Repo specific
+.publish/
+dist/
