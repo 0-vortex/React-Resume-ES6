@@ -36,7 +36,7 @@ const paths = {
 };
 
 const customOpts = {
-  entries: [paths.srcJsx],
+  entries: [paths.srcJsx, paths.json],
   debug: true
 };
 
@@ -89,7 +89,7 @@ gulp.task('copy-resume', function() {
     gulp.src('CNAME')
     .pipe(gulp.dest('./dist/'));
 
-    gulp.src('src/resume.json')
+    gulp.src(paths.json)
     .pipe(gulp.dest('./dist/'));
 });
 
@@ -132,6 +132,7 @@ gulp.task('minify', () => {
 gulp.task('watchTask', () => {
   gulp.watch(paths.srcCss, ['styles']);
   gulp.watch(paths.srcJsx, ['lint']);
+  gulp.watch(paths.json, ['copy-resume']);
 });
 
 gulp.task('deploy', function() {
