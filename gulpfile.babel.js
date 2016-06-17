@@ -49,7 +49,7 @@ gulp.task('clean', cb => {
 gulp.task('browserSync', () => {
   browserSync({
     server: {
-      baseDir: './'
+      baseDir: './dist/'
     }
   });
 });
@@ -140,7 +140,7 @@ gulp.task('deploy', function() {
 });
 
 gulp.task('watch', cb => {
-  runSequence('clean', ['browserSync', 'watchTask', 'watchify', 'minify', 'copy-resume', 'styles', 'lint', 'images'], cb);
+  runSequence('clean', ['browserSync', 'watchTask', 'watchify', 'minify', 'copy-resume', 'styles', 'htmlReplace', 'lint', 'images'], cb);
 });
 
 gulp.task('build', cb => {
