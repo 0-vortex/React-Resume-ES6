@@ -13,7 +13,7 @@ export default class Skills extends React.Component {
               <h3>{item.name}</h3>
               <ul className="skills-list list-inline">{item.keywords.map(function(skill) {
                 return (
-                  <li><span className="label label-success">{skill}</span></li>
+                  <li><span className="label label-primary">{skill}</span></li>
                 )
               })}</ul>
             </div>
