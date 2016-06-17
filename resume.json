@@ -6,6 +6,7 @@
     "phone": "+447477132686",
     "website": "https://vortex.one",
     "summary": "transitioning generic lamp-designed apps to paas can prove itself troublesome when you have to take quick decisions that will impact your future. that's why I like my apps to run as fast as possible, without caring much for the technologies used to do that.\n\nI think that any sane person will follow a OOP MVC pattern but the more we turn towards objects, it's just the abstraction of a living organism - i call this the human model.\n\nrather than listing both trending and non-trending technologies I use, I'd like to point out some of the philosophical concepts that fuel my perception as a programmer:\n\n- DRY, Don't Repeat Yourself\n- KISS, Keep It Simple Stupid\n- OCCAM'S RAZOR\n- ZENO'S PARADOXES\n\nI use both practical and theoretical reason to reach my goals and never tire learning something new",
+    "summary": "",
     "location": {
       "address": "5 Boston Mews",
       "postalCode": "NG51HL",
@@ -27,10 +28,34 @@
         "url": "https://bitbucket.org/tedvortex"
       },
       {
+        "network": "Stackoverflow",
+        "icon": "fa-stack-overflow",
+        "username": "vortex",
+        "url": "http://stackoverflow.com/users/757375/vortex"
+      },
+      {
+        "network": "Stackshare",
+        "icon": "fa-stack-exchange",
+        "username": "vrtxf",
+        "url": "http://stackshare.io/vrtxf"
+      },
+      {
+        "network": "Linkedin",
+        "icon": "fa-linkedin",
+        "username": "TED (Teodor Eugen Duțulescu) Vortex",
+        "url": "https://uk.linkedin.com/in/tedvortex"
+      },
+      {
         "network": "Crunchbase",
-        "icon": "fa-angellist",
+        "icon": "fa-line-chart",
         "username": "TED Vortex",
         "url": "https://www.crunchbase.com/user/501304"
+      },
+      {
+        "network": "Skype",
+        "icon": "fa-skype",
+        "username": "dutulescu.teodor",
+        "url": "skype:dutulescu.teodor?call"
       },
       {
         "network": "Twitter",
@@ -59,27 +84,55 @@
       "position": "Software Developer",
       "website": "http://connectedworldservices.com",
       "startDate": "2014-12-01",
-      "summary": "",
-      "highlights": [],
-      "endDate": "2016-05-01"
+      "endDate": "2016-05-01",
+      "summary": "My main attributions at CWS were:\n- Following full agile scrum methodologies and work flow via the complete Atlassian tool stack\n- Collecting requirements from line managers and internal stakeholders\n- Estimating and planning with project managers with a clear understanding of business goals\n- Creating and extending user interfaces to fit the requirements of stakeholders\n- Authoring software solution proposals following internal standards set by senior professionals\n- Coordinating with customers and application/product engineers to gain sign-off\n- Development of bespoke web applications, micro-services and APIs\n- Deployment of web applications to live servers\n- Implementing custom standardized backend logic for web applications\n- Understanding and following a hybrid TDD/BDD mindset\nAside of my normal tasks I was occasionally assigned to:\n- Integrate and push to distributed systems\n- Assess and integrate 3rd party APIs\n- Manage user access control for git repositories and do code reviews\n- Create web application build plans with functional testing",
+      "highlights": [
+        "Proposed gulp npm package, demonstrated it's usefulness in a live application and passed company standard review",
+        "Authored a micro-service generator(prototype) based on existing technologies",
+        "Lead late development of E2Save.com (2015), working together with senior developers, designers, product managers and business owners"
+      ],
+      "widget": [
+        {
+          "type": "stack",
+          "title": "E2save stackshare",
+          "description": "Collection of tools used for building http://e2save.com under CWS",
+          "url": "http://stackshare.io/vrtxf/connected-world-services-2015"
+        }
+      ]
     },
     {
       "company": "Self-employed",
       "position": "Web Developer",
       "website": "",
       "startDate": "2013-10-01",
+      "endDate": "2014-11-01",
       "summary": "I used this time to consolidate my PHP skills while picking up on Puppet and NodeJS",
       "highlights": [],
-      "endDate": "2014-11-01"
+      "widget": [
+        {
+          "type": "stack",
+          "title": "Freelance 2014 StackShare",
+          "description": "Most of the tools used while working freelance projects",
+          "url": "http://stackshare.io/vrtxf/freelance-2014"
+        }
+      ]
     },
     {
       "company": "Computer Fun (expertvision.ro)",
       "position": "Lead Programmer",
       "website": "http://expertvision.ro",
       "startDate": "2009-06-01",
+      "endDate": "2013-10-01",
       "summary": "My job as Lead Programmer included: \n- design and development of business critical web applications \n- management and development of a team of it professionals \n- project planning\n- provisioning of support and solutions to team members in solving their work tasks\n- unit testing \n- software auditing\n- collaboration with other departments and 3rd party software providers",
       "highlights": [],
-      "endDate": "2013-10-01"
+      "widget": [
+        {
+          "type": "stack",
+          "title": "ExpertVision StackShare",
+          "description": "Most of the tools used while leading a small group of talented individuals",
+          "url": "http://stackshare.io/vrtxf/expertvision-2013"
+        }
+      ]
     }
   ],
   "volunteer": [],
