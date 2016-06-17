@@ -6,7 +6,6 @@
     "phone": "+447477132686",
     "website": "https://vortex.one",
     "summary": "transitioning generic lamp-designed apps to paas can prove itself troublesome when you have to take quick decisions that will impact your future. that's why I like my apps to run as fast as possible, without caring much for the technologies used to do that.\n\nI think that any sane person will follow a OOP MVC pattern but the more we turn towards objects, it's just the abstraction of a living organism - i call this the human model.\n\nrather than listing both trending and non-trending technologies I use, I'd like to point out some of the philosophical concepts that fuel my perception as a programmer:\n\n- DRY, Don't Repeat Yourself\n- KISS, Keep It Simple Stupid\n- OCCAM'S RAZOR\n- ZENO'S PARADOXES\n\nI use both practical and theoretical reason to reach my goals and never tire learning something new",
-    "summary": "",
     "location": {
       "address": "5 Boston Mews",
       "postalCode": "NG51HL",
@@ -84,7 +83,7 @@
       "position": "Software Developer",
       "website": "http://connectedworldservices.com",
       "startDate": "2014-12-01",
-      "endDate": "2016-05-01",
+      "endDate": "2016-05-03",
       "summary": "My main attributions at CWS were:\n- Following full agile scrum methodologies and work flow via the complete Atlassian tool stack\n- Collecting requirements from line managers and internal stakeholders\n- Estimating and planning with project managers with a clear understanding of business goals\n- Creating and extending user interfaces to fit the requirements of stakeholders\n- Authoring software solution proposals following internal standards set by senior professionals\n- Coordinating with customers and application/product engineers to gain sign-off\n- Development of bespoke web applications, micro-services and APIs\n- Deployment of web applications to live servers\n- Implementing custom standardized backend logic for web applications\n- Understanding and following a hybrid TDD/BDD mindset\nAside of my normal tasks I was occasionally assigned to:\n- Integrate and push to distributed systems\n- Assess and integrate 3rd party APIs\n- Manage user access control for git repositories and do code reviews\n- Create web application build plans with functional testing",
       "highlights": [
         "Proposed gulp npm package, demonstrated it's usefulness in a live application and passed company standard review",
@@ -106,7 +105,7 @@
       "website": "",
       "startDate": "2013-10-01",
       "endDate": "2014-11-01",
-      "summary": "I used this time to consolidate my PHP skills while picking up on Puppet and NodeJS",
+      "summary": "With mobile devices rising above desktop usage I found myself unable to deliver native-like experiences with the synchronous technologies I was previously using.\nThis is the main reason I used most of my time consolidating my NodeJS skills and learning Puppet.\n\nWhy Puppet ?\nPuppet is built with a focus on client/server configuration within an infrastructure. However Puppet provides you with an extremely easy method for getting started and between Chef and an early version of Ansible I found Puppet to be the fastest way to power up my CentOS based vagrant environment into a secure production server.",
       "highlights": [],
       "widget": [
         {
@@ -123,8 +122,13 @@
       "website": "http://expertvision.ro",
       "startDate": "2009-06-01",
       "endDate": "2013-10-01",
-      "summary": "My job as Lead Programmer included: \n- design and development of business critical web applications \n- management and development of a team of it professionals \n- project planning\n- provisioning of support and solutions to team members in solving their work tasks\n- unit testing \n- software auditing\n- collaboration with other departments and 3rd party software providers",
-      "highlights": [],
+      "summary": "My job as Lead Programmer included: \n- design and development of business critical web applications \n- management and development of a team of it professionals \n- project planning and estimates with business holders and customers\n- provisioning of support and solutions to team members in solving their work tasks\n- unit testing \n- performance and security auditing\n- collaboration with other departments and 3rd party service providers",
+      "highlights": [
+        "Created and maintained an in-house PHP content management framework built on top of Zend 2 and Symfony 2 components and following SEO best practices and performance optimisation",
+        "The first commercial project I built and released on this framework was http://www.flax.ro - A versatile and secure LAMP framework that has proven its resilience over time and is still being used and maintained today by my former company",
+        "Managed to watch over planning, development and release over 200 websites with the above mentioned framework; With most of these projects being executed in a team, I've switched roles many times, leveraging from building both the backend and the frontend towards coaching my team and improving the experience of undocumented users",
+        "Created a complete Transbase to MySql database conversion of the TecDoc 2013 program"
+      ],
       "widget": [
         {
           "type": "stack",
