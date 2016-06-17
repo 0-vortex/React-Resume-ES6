@@ -57,6 +57,9 @@ a {
 .contact-links li {
   margin-bottom: 15px;
 }
+.profileLinks {
+  font-size: 1.2em;
+}
 .profileLinks li a {
   text-decoration: none;
   color: #000;

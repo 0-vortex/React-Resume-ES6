@@ -8,8 +8,6 @@ export default class Profile extends React.Component {
 
   render() {
     const profileObj = this.props.profileData;
-    console.log(profileObj.profiles);
-
     return <div>
       <div className="profileImg"><img className="img-circle center-block" src={profileObj.picture} width="200"/></div>
       <h1 className="text-center">{profileObj.name}</h1>
@@ -23,13 +21,13 @@ export default class Profile extends React.Component {
       </ul>
       <div className="divider"></div>
       <ul className="profileLinks list-inline text-center">
-        {profileObj.profiles.map(function(profile) {
-          return (
-            <li>
-              <a className={'fa ' + profile.icon + ' fa-2x'} href={profile.url}></a>
-            </li>
-          )
-        })}
+          {profileObj.profiles.map(function (profile) {
+            return (
+              <li>
+                <a className={'fa ' + profile.icon + ' fa-1x'} href={profile.url}></a>
+              </li>
+            )
+          })}
       </ul>
       <div className="divider"></div>
       <p>I built this site with <a href="https://facebook.github.io/react/">React</a> components and a <a
