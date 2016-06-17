@@ -45,6 +45,12 @@
         "url": "https://uk.linkedin.com/in/tedvortex"
       },
       {
+        "network": "AngeList",
+        "icon": "fa-angellist",
+        "username": "TED Vortex",
+        "url": "https://angel.co/ted-vortex"
+      },
+      {
         "network": "Crunchbase",
         "icon": "fa-line-chart",
         "username": "TED Vortex",
