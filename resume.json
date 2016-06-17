@@ -45,6 +45,12 @@
         "url": "https://uk.linkedin.com/in/tedvortex"
       },
       {
+        "network": "AngeList",
+        "icon": "fa-angellist",
+        "username": "TED Vortex",
+        "url": "https://angel.co/ted-vortex"
+      },
+      {
         "network": "Crunchbase",
         "icon": "fa-line-chart",
         "username": "TED Vortex",
@@ -105,7 +111,7 @@
       "website": "",
       "startDate": "2013-10-01",
       "endDate": "2014-11-01",
-      "summary": "With mobile devices rising above desktop usage I found myself unable to deliver native-like experiences with the synchronous technologies I was previously using.\nThis is the main reason I used most of my time consolidating my NodeJS skills and learning Puppet.\n\nWhy Puppet ?\nPuppet is built with a focus on client/server configuration within an infrastructure. However Puppet provides you with an extremely easy method for getting started and between Chef and an early version of Ansible I found Puppet to be the fastest way to power up my CentOS based vagrant environment into a secure production server.",
+      "summary": "With mobile devices rising above desktop usage I found myself unable to deliver native-like experiences with the synchronous technologies I was previously using.\nThis is the main reason I used most of my time consolidating my NodeJS skills and learning Puppet.\n\nWhy Puppet ?\nPuppet is built with a focus on client/server configuration within an infrastructure. However Puppet provides you with an extremely easy method for getting started and between Chef and an early version of Ansible I found Puppet to be the fastest way to power up my CentOS based vagrant environment into a secure production server.\n\nWhy NodeJS ?\n- Modularity: NodeJS provides a module-driven, highly scalable approach to application design, development and deployment that enables development teams to put the most desirable elements of agile methodology into practice.\n- JS backend: JavaScript on the server with Node further establishes it as the language of the web and its new uses on the server are helping to shape the future of the language itself.\n- Asynchronous Programming: JavaScript—and Node by extension—was designed for the web and the browser, where nothing is synchronous. Asynchronous JavaScript programs can perform many complex, parallel tasks in the browser. Node takes asynchronicity to the extreme on the server, making it the perfect choice for I/O-heavy and highly concurrent applications.\n- Module-driven Development: Node encourages developers to think in terms of creating small services that can be easily replaced or updated when necessary. By adopting a module-driven approach, Node developers can deconstruct the functionality of large monolithic applications and redesign them as a series of Node modules, bundled together to form a collection of services. This establishes an elegant simplicity in building scalable application functionality that improves both business and developer agility and leads to greater code-reuse.\n- Performance: Node represents an attractive compromise between performance concerns and platform approachability for developers. While there are other platforms able to match or exceed the performance of Node, none are as approachable for such a large portion of developers as Node via its reliance on JavaScript. Additionally, Node’s asynchronous programming model encourages performant development practices that are either difficult or risky in other languages and platforms.",
       "highlights": [],
       "widget": [
         {
