@@ -2,7 +2,6 @@ import React from 'react';
 import Profile from './Profile';
 import About from './About';
 import Work from './Work';
-import WorkItem from './WorkItem';
 import Skills from './Skills';
 import Education from './Education';
 
@@ -14,33 +13,27 @@ export default class App extends React.Component {
 
     //ajax call to get resume file
     $.get(this.props.source, function (result) {
-      // console.log(result);
       this.setState({jsonObj: result});
     }.bind(this));
   }
 
   render() {
     if (this.state.jsonObj) {
-      const profileData = this.state.jsonObj.basics;
-      const aboutData = profileData.summary;
-      const workData = this.state.jsonObj.work;
-      const skillsData = this.state.jsonObj.skills;
-      const educationData = this.state.jsonObj.education;
-      // console.log(profileData)
+      const jsonResume = this.state.jsonObj;
       return (
         <div className="container">
           <div className="row">
-            <aside className="col-md-4">
-              <div className="inner">
-                <Profile profileData={profileData}/>
+            <aside className="col-md-4 col-sm-12 col-xs-12">
+              <div className="container-fluid">
+                <Profile profileData={jsonResume.basics}/>
               </div>
             </aside>
-            <main className="col-md-8">
-              <div className="inner">
-                <About aboutData={aboutData}/>
-                <Work workData={workData}/>
-                <Skills skillsData={skillsData}/>
-                <Education educationData={educationData}/>
+            <main className="col-md-8 col-sm-12 col-xs-12">
+              <div className="container-fluid">
+                <About aboutData={jsonResume.basics.summary}/>
+                <Work workData={jsonResume.work}/>
+                <Skills skillsData={jsonResume.skills}/>
+                <Education educationData={jsonResume.education}/>
               </div>
             </main>
           </div>
@@ -49,9 +42,7 @@ export default class App extends React.Component {
     } else {
       return <p>Loading...</p>
     }
-
   }
-
 };
 
 App.defaultProps = {jsonObj: null};

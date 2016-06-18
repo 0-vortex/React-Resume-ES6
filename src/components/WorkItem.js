@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 export default class WorkItem extends React.Component {
 
@@ -15,17 +16,17 @@ export default class WorkItem extends React.Component {
   }
 
   render() {
-    let getHighlights = this.props.workItemData.highlights.map(function (item) {
-      return (<li>{item}</li>)
+    let getHighlights = this.props.workItemData.highlights.map(function (item, id) {
+      return (<li key={id}>{item}</li>)
     });
 
     return (
       <div className="workItem">
         <h3>{this.props.workItemData.position}, <span>{this.props.workItemData.company}</span></h3>
         <p className="workDates">{this.getWorkDates()}</p>
-        <p>{this.props.workItemData.summary.split('\n').map(function (item) {
+        <p>{this.props.workItemData.summary.split('\n').map(function (item, id) {
           return (
-            <span>
+            <span key={id}>
               {item}<br/>
             </span>
           )

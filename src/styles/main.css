@@ -7,7 +7,7 @@ aside, main {
 main {
   padding-left: 0!important;
 }
-aside .inner, main .inner {
+aside .container-fluid, main .container-fluid {
   background: #fff;
   padding: 20px;
 }

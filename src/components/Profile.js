@@ -21,9 +21,9 @@ export default class Profile extends React.Component {
       </ul>
       <div className="divider"></div>
       <ul className="profileLinks list-inline text-center">
-          {profileObj.profiles.map(function (profile) {
+          {profileObj.profiles.map(function (profile, id) {
             return (
-              <li>
+              <li key={id}>
                 <a className={'fa ' + profile.icon + ' fa-1x'} href={profile.url}></a>
               </li>
             )

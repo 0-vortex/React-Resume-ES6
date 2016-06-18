@@ -15,7 +15,11 @@ export default class Work extends React.Component {
     return (
       <section className="work">
         <h2 className="text-uppercase"><i className="fa fa-lg fa-building"></i> Work experience</h2>
-        {this.getWorkExperience()}
+        {this.props.workData.map(function(item, id) {
+          return (
+            <WorkItem key={id} workItemData={item}/>
+          )
+        })}
       </section>
     );
   }
