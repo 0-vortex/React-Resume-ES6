@@ -141,10 +141,10 @@ gulp.task('deploy', function() {
 });
 
 gulp.task('watch', cb => {
-  runSequence('clean', ['browserSync', 'watchTask', 'watchify', 'minify', 'copy-resume', 'styles', 'htmlReplace', 'lint', 'images'], cb);
+  runSequence('clean', 'browserSync', 'watchTask', 'watchify', 'minify', 'copy-resume', 'styles', 'htmlReplace', 'lint', 'images', cb);
 });
 
 gulp.task('build', cb => {
   process.env.NODE_ENV = 'production';
-  runSequence('clean', ['browserify', 'minify', 'copy-resume', 'styles', 'htmlReplace', 'images'], cb);
+  runSequence('clean', 'browserify', 'copy-resume', 'styles', 'htmlReplace', 'images', cb);
 });
